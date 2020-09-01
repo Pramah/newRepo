@@ -1,0 +1,51 @@
+/* 
+UI Styling
+*/
+
+html,
+body {
+  font-family: "Bree Serif", serif;
+}
+
+p, h2 {
+  margin: 20px;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+.input-btn {
+  margin-top: 15px;
+  height: 50px !important;
+}
+
+.input {
+  background-color: white !important;
+}
+
+.bio {
+  margin-top: 20px;
+}
+iframe{
+  width: 100%;
+}
+
+
+#site-footer {
+  background-color: darkslategrey ;
+  max-width: 100%;
+  overflow-x: hidden; 
+  position: fixed;
+  bottom: 0;
+  color: black;
+  }
+
+.col-lg-4 .col-md-6 {
+  width: 50%;
+
+}
